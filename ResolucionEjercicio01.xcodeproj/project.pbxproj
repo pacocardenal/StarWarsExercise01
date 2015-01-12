@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0043AFDB1A63C94800EC6841 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0043AFDA1A63C94800EC6841 /* main.m */; };
+		0043AFE31A63C96800EC6841 /* PCALightSaber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0043AFE21A63C96800EC6841 /* PCALightSaber.m */; };
+		0043AFE71A63D1DD00EC6841 /* PCAStarWarsCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0043AFE61A63D1DD00EC6841 /* PCAStarWarsCharacter.m */; };
+		0043AFEA1A63D3D900EC6841 /* PCAJedi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0043AFE91A63D3D900EC6841 /* PCAJedi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		0043AFD71A63C94800EC6841 /* ResolucionEjercicio01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ResolucionEjercicio01; sourceTree = BUILT_PRODUCTS_DIR; };
 		0043AFDA1A63C94800EC6841 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0043AFE11A63C96800EC6841 /* PCALightSaber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCALightSaber.h; sourceTree = "<group>"; };
+		0043AFE21A63C96800EC6841 /* PCALightSaber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCALightSaber.m; sourceTree = "<group>"; };
+		0043AFE51A63D1DD00EC6841 /* PCAStarWarsCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCAStarWarsCharacter.h; sourceTree = "<group>"; };
+		0043AFE61A63D1DD00EC6841 /* PCAStarWarsCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCAStarWarsCharacter.m; sourceTree = "<group>"; };
+		0043AFE81A63D3D900EC6841 /* PCAJedi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCAJedi.h; sourceTree = "<group>"; };
+		0043AFE91A63D3D900EC6841 /* PCAJedi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCAJedi.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,7 @@
 		0043AFCE1A63C94800EC6841 = {
 			isa = PBXGroup;
 			children = (
+				0043AFE41A63C97200EC6841 /* Models */,
 				0043AFD91A63C94800EC6841 /* ResolucionEjercicio01 */,
 				0043AFD81A63C94800EC6841 /* Products */,
 			);
@@ -60,6 +70,19 @@
 				0043AFDA1A63C94800EC6841 /* main.m */,
 			);
 			path = ResolucionEjercicio01;
+			sourceTree = "<group>";
+		};
+		0043AFE41A63C97200EC6841 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0043AFE11A63C96800EC6841 /* PCALightSaber.h */,
+				0043AFE21A63C96800EC6841 /* PCALightSaber.m */,
+				0043AFE51A63D1DD00EC6841 /* PCAStarWarsCharacter.h */,
+				0043AFE61A63D1DD00EC6841 /* PCAStarWarsCharacter.m */,
+				0043AFE81A63D3D900EC6841 /* PCAJedi.h */,
+				0043AFE91A63D3D900EC6841 /* PCAJedi.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0043AFEA1A63D3D900EC6841 /* PCAJedi.m in Sources */,
+				0043AFE71A63D1DD00EC6841 /* PCAStarWarsCharacter.m in Sources */,
 				0043AFDB1A63C94800EC6841 /* main.m in Sources */,
+				0043AFE31A63C96800EC6841 /* PCALightSaber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
